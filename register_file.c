@@ -1,9 +1,3 @@
-/*
- * register_file.c
- *
- *  Created on: Sep 17, 2016
- *      Author: Marvin
- */
 
 #include <stdio.h>
 #include <stdlib.h>

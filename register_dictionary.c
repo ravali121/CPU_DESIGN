@@ -1,9 +1,4 @@
-/*
- * register_dictionary.c
- *
- *  Created on: Sep 17, 2016
- *      Author: Marvin
- */
+
 
 #include <string.h>
 #include "includes/register_dictionary.h"

@@ -191,7 +191,7 @@ int aluSub(int a, int b)
     return difference ;
 }
 
-//Bitwise MUL
+//Bitwise Multiplication Operation
 int aluMul(int x, int y)
 {
     int a = 0, b = 0, c = 0, product = 0;

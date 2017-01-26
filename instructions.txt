@@ -1,4 +1,4 @@
-lea t2, 2048
+lea t2, 2052
 addi t3, zeroR, 0xFF
 addi t6, zeroR, 0xFF
 addi t4, zeroR, 4

@@ -5,14 +5,14 @@ addi t5, zeroR, 1
 addi t7, zeroR, 4
 addi a1, zeroR, 0
 addi a2, zeroR, 10
-while:
+WHILE:
 bge a1, a2, SEARCH
 st t3, 0(t1)
 addi t3, t3, 2
 add t1, t1, t7
 addi a1, a1, 1
 addi t4, t4, 1
-j while
+j WHILE
 SEARCH:
 BEQ t4, t5, FINISH
 mov t7, t5

@@ -1,9 +1,3 @@
-/*
- * util.c
- *
- *  Created on: Oct 25, 2016
- *      Author: 212554696
- */
 
 #include "includes/util.h"
 

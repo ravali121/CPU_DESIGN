@@ -90,5 +90,4 @@ uint16_t getRegisterAddr(char *s) {
 		return 31;
 	}
 	return 32; // return invalid address to fail
-
 }

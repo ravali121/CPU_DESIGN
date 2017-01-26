@@ -110,8 +110,7 @@ bool compileInstr(char *instr)
         uint32_t labelOffset = label.offset;
         labelOffset &= ~(0xFFFF << 16); // flush most significant sixteen bits for opcode;
         inst_parser |= labelOffset;
-        valid_inst = true;
-        
+        valid_inst = true;    
     }
     else if(!strcasecmp(p1, "beq"))
     {

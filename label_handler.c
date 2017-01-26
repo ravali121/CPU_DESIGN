@@ -1,9 +1,4 @@
-/*
- * label_handler.c
- *
- *  Created on: Oct 18, 2016
- *      Author: Marvin
- */
+
 #include "includes/label_handler.h"
 
 typedef struct nodet_t {

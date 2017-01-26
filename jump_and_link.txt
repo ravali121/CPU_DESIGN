@@ -5,8 +5,8 @@ addi t2, zeroR, 0xFF
 addi t3, zeroR, 0xDD
 addi t4, zeroR, 0xCC
 st t1, 0(s1)
-j end
+j END
 save_addr:
 lea s1, 2048
 jr ra
-end:
+END:

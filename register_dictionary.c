@@ -1,5 +1,3 @@
-
-
 #include <string.h>
 #include "includes/register_dictionary.h"
 #include "includes/constants.h"

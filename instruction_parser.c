@@ -174,7 +174,7 @@ void pop(uint8_t rt) {
 	}
 }
 
-// LOGIC
+
 void parseInstructionReg(uint32_t instruction)
 {
     uint8_t opcode = instruction >> 26;

@@ -69,3 +69,4 @@ void setRegister(char reg, int value) {
 		R[reg] = value;
 	}
 }
+

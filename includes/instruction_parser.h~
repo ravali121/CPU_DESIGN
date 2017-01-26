@@ -1,9 +1,4 @@
-/*
- * instruction_parser.h
- *
- *  Created on: Oct. 17, 2016
- *      Author: Marvin
- */
+
 #ifndef INSTRUCTION_PARSER_H_
 #define INSTRUCTION_PARSER_H_
 
@@ -45,6 +40,10 @@ void mipsOrI(uint8_t rs, uint8_t rt, uint16_t imm);
 void mipsXorI(uint8_t rs, uint8_t rt, uint16_t imm);
 void shiftLeft(uint8_t rs1, uint8_t rt, uint8_t rs2);
 void shiftLeftI(uint8_t rs, uint8_t rt, uint16_t imm);
+void jump(uint32_t offset);
+void jumpAndLink(uint32_t offset);
+void push(uint8_t rs);
+void pop(uint8_t rt);
 
 void parseInstructionReg(uint32_t instruction);
 

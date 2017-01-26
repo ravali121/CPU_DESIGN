@@ -1,9 +1,10 @@
 /*
- * instruction_parser.h
+ * register_dictionary.h
  *
- *  Created on: Oct. 17, 2016
- *      Author: Marvin
+ *  Created on: Sep 17, 2016
+ *      Author: Ravali
  */
+
 #ifndef INSTRUCTION_PARSER_H_
 #define INSTRUCTION_PARSER_H_
 

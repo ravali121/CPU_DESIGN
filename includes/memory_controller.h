@@ -1,8 +1,8 @@
 /*
- * memoryController.h
+ * register_dictionary.h
  *
- *  Created on: Sep 16, 2016
- *      Author: Marvin
+ *  Created on: Sep 17, 2016
+ *      Author: Ravali
  */
 
 #ifndef MEMORY_CONTROLLER_H_

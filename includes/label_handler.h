@@ -1,8 +1,8 @@
 /*
- * label_handler.h
+ * register_dictionary.h
  *
- *  Created on: Oct 18, 2016
- *      Author: 212554696
+ *  Created on: Sep 17, 2016
+ *      Author: Ravali
  */
 
 #ifndef INCLUDES_LABEL_HANDLER_H_

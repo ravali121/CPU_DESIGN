@@ -1,8 +1,8 @@
 /*
- * constants.h
+ * register_dictionary.h
  *
  *  Created on: Sep 17, 2016
- *      Author: Marvin
+ *      Author: Ravali
  */
 
 #ifndef CONSTANTS_H_

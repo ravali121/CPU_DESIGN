@@ -1,8 +1,8 @@
 /*
- * alu.h
+ * register_dictionary.h
  *
  *  Created on: Sep 17, 2016
- *      Author: Marvin
+ *      Author: Ravali
  */
 
 #ifndef ALU_H_

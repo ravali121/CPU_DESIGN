@@ -1,8 +1,8 @@
 /*
- * instruction_compiler.h
+ * register_dictionary.h
  *
- *  Created on: Oct 17, 2016
- *      Author: 212554696
+ *  Created on: Sep 17, 2016
+ *      Author: Ravali
  */
 
 #ifndef INCLUDES_INSTRUCTION_COMPILER_H_

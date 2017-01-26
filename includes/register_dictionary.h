@@ -2,7 +2,7 @@
  * register_dictionary.h
  *
  *  Created on: Sep 17, 2016
- *      Author: Marvin
+ *      Author: Ravali
  */
 
 #ifndef REGISTER_DICTIONARY_H_

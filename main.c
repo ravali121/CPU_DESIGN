@@ -56,7 +56,6 @@ void print_cpu_state(void)
         if (i == 6)
             printf("\n");
     }
-
     printAllReg();
     printf("   hi = %08x | %04i, lo = %08x | %04i\n", hi, hi, lo, lo);
     printf("**********************____*****************************\n");

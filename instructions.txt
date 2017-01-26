@@ -1,0 +1,16 @@
+lea t2, 2048
+addi t3, zeroR, 0xFF
+addi t6, zeroR, 0xFF
+addi t4, zeroR, 4
+push t3
+lea t5, 2060
+st t3, 0(t5)
+jal label
+st t6, 12(t2)
+st t6, 8(t2)
+st t6, 4(t2)
+st t6, 0(t2)
+lds t6, 0x04(t2, t4)2
+label:
+lds t1, 0x04(t2, t4)2
+sts t1, 0x08(t2, t4)4

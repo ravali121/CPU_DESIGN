@@ -1,0 +1,9 @@
+lea t1, 2048
+addi t2, zeroR, 0xBB
+addi t4, zeroR, 0xCC
+push t2
+push t4
+pop t3
+st t3, 0(t1)
+pop t5
+st t5, 4(t1)

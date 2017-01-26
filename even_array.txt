@@ -1,0 +1,53 @@
+lea t1, 2048
+addi t2, zeroR, 9
+addi t3, zeroR, 1
+addi t5, zeroR, 1
+addi t7, zeroR, 4
+addi a1, zeroR, 0
+addi a2, zeroR, 10
+while:
+bge a1, a2, SEARCH
+st t3, 0(t1)
+addi t3, t3, 2
+add t1, t1, t7
+addi a1, a1, 1
+addi t4, t4, 1
+j while
+SEARCH:
+BEQ t4, t5, FINISH
+mov t7, t5
+mov t8, t4
+add t6, t7, t8
+SRL t6, t6, 1
+mov t1, t6
+muli t1, t1, 4
+addi t1, t1, 2044
+ld t9, 0(t1)
+BEQ t2, t9, SUCCESS
+BL t2, t9, LOW
+J HIGH
+LOW:
+subi t6, t6, 1
+mov t4, t6
+J SEARCH
+HIGH:
+addi t6, t6, 1
+mov t5, t6
+J SEARCH
+FINISH:
+mov t1, t4
+muli t1, t1, 4
+addi t1, t1, 2044
+ld t9, 0(t1)
+BEQ t9, t2, SUCCESS
+J FAIL
+SUCCESS:
+mov t6, t1
+push t6
+J EXIT
+FAIL:
+muli t6, t6, 0
+push t6
+J EXIT
+EXIT:
+pop t6

@@ -1,0 +1,9 @@
+lea s1, 2048
+addi t1, zeroR, 1
+j end
+addi t1, t1, 5
+addi t2, zeroR, 0xFF
+addi t3, zeroR, 0xDD
+addi t4, zeroR, 0xCC
+end:
+st t1, 0(s1)

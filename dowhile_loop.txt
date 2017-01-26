@@ -1,0 +1,11 @@
+lea t1, 2048
+addi t2, zeroR, 4
+addi t3, zeroR, 1
+addi a1, zeroR, 0
+addi a2, zeroR, 10
+do:
+st t3, 0(t1)
+addi t3, t3, 2
+add t1, t1, t2
+addi a1, a1, 1
+bne a1, a2, do

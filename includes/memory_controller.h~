@@ -1,0 +1,28 @@
+/*
+ * memoryController.h
+ *
+ *  Created on: Sep 16, 2016
+ *      Author: Marvin
+ */
+
+#ifndef MEMORY_CONTROLLER_H_
+#define MEMORY_CONTROLLER_H_
+
+#include "constants.h"
+
+#define DATA_MEMORY_BASE 384
+#define INSTR_MEMORY_BASE 128
+#define BOOT_MEMORY_BASE 0
+
+void printMemory();
+void printMAR();
+void printMDR();
+
+int getMAR();
+int getMDR();
+
+void storeToMem(uint16_t addr, int value);
+int loadFromMem(uint16_t addr);
+
+
+#endif /* MEMORY_CONTROLLER_H_ */
